@@ -1,0 +1,69 @@
+<footer class="site-footer p-0">
+
+  <div class="row py-16 bg-blue-darkest">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-3">
+          <p><img src="/images/logo_niger.png" alt="ODN" title="ODN"></p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          Lorem Ipsum has been the industry's standard dummy text ever.
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3">
+          <h5 class="text-uppercase font-bold">Catégories</h5>
+          <ul>
+            <li><a href="">Catégorie 1</a></li>
+            <li><a href="">Catégorie 2</a></li>
+            <li><a href="">Catégorie 3</a></li>
+            <li><a href="">Catégorie 4</a></li>
+            <li><a href="">Catégorie 5</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3">
+          <h5 class="text-uppercase font-bold">Informations</h5>
+          <ul>
+            <li><a href="#">Lien 1</a></li>
+            <li><a href="">Lien 2</a></li>
+            <li><a href="">Lien 3</a></li>
+            <li><a href="">Lien 4</a></li>
+            <li><a href="">Lien 5</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-2 col-sm-2">
+          <h5 class="text-uppercase font-bold">Galérie</h5>
+          <p><img src="/images/logo_niger.png" alt="ODN" title="ODN"></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-xs-4 col-sm-3 col-md-2">
+          <h5 class="text-uppercase font-bold">Suivez-nous</h5>
+          <a href=""><i class="fa fa-twitter fa-2">Twitter</i></a>
+          <a href=""><i class="fa fa-facebook fa-2">Facebook</i></a>
+          <a href=""><i class="fa fa-googleplus fa-2">Google+</i></a>
+        </div>
+        <div class="col-lg-4 col-xs-4 col-sm-3 col-md-2">
+          <form>
+            <h5 class="text-uppercase font-bold">Rester informer</h5>
+            <input id="informer" placeholder="Entrez votre adresse email*" data-provide="typeahead">
+          </form>
+        </div>
+        <div class="col-lg-4 col-xs-4 col-sm-3 col-md-2">
+          Si vous avez des images, des vidéos ou tous autres éléments à afficher dans une grille, Bootstrap propose le
+          composant Thumbnails très facile à mettre en œuvre. Je reviens sur ma page d'exemple qui comporte de petites
+          images de tigres. Jusque-là, j'ai positionné les images en utilisant tout simplement la grille
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row py-16 bg-white text-black">
+    <div class="container">
+      <a href="https://odn.datafordev.org" rel="nofollow"><span class="text-accent">OPEN DATA NIGER</span></a> © 2019. Tous droits réservés.
+    </div>
+  </div>
+
+  {% block footer_debug %}
+  {% if g.debug %}
+  {% include 'snippets/debug.html' %}
+  {% endif %}
+  {% endblock %}
+</footer>

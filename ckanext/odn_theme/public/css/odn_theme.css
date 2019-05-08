@@ -1,0 +1,193 @@
+body {
+  background-color: #fff;
+  color: #a9a6aa;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+.align-items-center {
+  -ms-flex-align: center!important;
+  align-items: center!important;
+}
+
+.d-flex {
+  display: -ms-flexbox!important;
+  display: flex!important;
+}
+
+h1 {
+  font-size: 68px;
+}
+
+h2 {
+  font-size: 42px;
+  color: #0E1823;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 28px;
+  font-weight: 400;
+}
+
+h5 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+h6 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.account-masthead {
+  background-color: #EDEEEF;
+  padding: 20px 0 0;
+}
+
+.logo img {
+  border-radius: 50px;
+}
+
+.masthead {
+  background-color: #0db02b;
+  border-radius: 10px;
+  bottom: -40px;
+  margin: 0 40px;
+  text-transform: uppercase;
+}
+
+.masthead .navbar-collapse {
+  float: left;
+  width: 100%
+}
+
+.masthead .site-search {
+  float: right;
+}
+
+.masthead .site-search input {
+  background: transparent;
+  border: none;
+  color: #fff;
+}
+
+.masthead .site-search input::placeholder {
+  color: #fff;
+}
+
+.simple-input .field .btn-search {
+  color: #fff;
+}
+
+.simple-input .field .btn-search:hover {
+  color: #fff;
+}
+
+.parteners {
+  background-color: #EDEEEF;
+  padding-bottom: 40px;
+}
+
+.intro {
+  background: linear-gradient(rgba(4, 20, 71, 0.7), rgba(0, 0, 0, 0.7)), url(../images/FlagNiger.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  position: relative;
+  margin: 0;
+  text-align: center;
+  color: white;
+  padding: 80px 0 0;
+}
+
+#intro .intro-content {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 10%;
+  right: 10%;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-weight: bold;
+}
+
+#intro .intro-content h2 {
+  color: #3a3a3a;
+  margin-bottom: 30px;
+  font-size: 68px;
+  font-weight: normal;
+  color: white;
+  text-transform: none;
+  text-align: center;
+}
+
+#intro .intro-content h2 span {
+  color: #e05206;
+  text-align: right;
+  font-size: 42px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+@media (max-width: 767px) {
+  #intro .intro-content h2 {
+    font-size: 42px;
+    background: #ffffffa3;
+    padding: 15px;
+  }
+}
+
+.intro .register {
+  bottom: -100px;
+  padding: 60px 40px;
+}
+
+.intro .register input {
+  height: 60px;
+  border-radius: 50px;
+  text-align: center;
+  width: 300px;
+}
+
+
+.adr-name {
+  margin-left: -40px;
+}
+
+.adr-email {
+  margin-left: 40px;
+}
+
+.presentation {
+  margin: 120px 0 40px;
+  background-color: #fff;
+}
+
+.site-footer .links {
+  background-color: #0E1823;
+}
+
+.site-footer .copyright {
+  color: #0E1823;
+  background-color: #EDEEEF;
+}
+
+.account-masthead .account ul li a {
+  color: #000;
+  line-height: 1.15;
+  font-size: 13px;
+}
+
+.account-masthead .account ul li {
+  border-left: none;
+}
