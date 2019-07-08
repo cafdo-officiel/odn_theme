@@ -1,0 +1,52 @@
+{% extends "page.html" %}
+
+{% block subtitle %}{{ _('About') }}{% endblock %}
+
+{% block breadcrumb_content %}
+  <li class="active">{% link_for _('About'), 'home.about' %}</li>
+{% endblock %}
+
+{% block primary %}
+  <article class="module">
+    <div class="module-content">
+        <h2>Presentation projet</h2>
+        <p>Au Niger, le droit à l’information est un droit garanti par la constitution1 de la septième République en date du 25 novembre 2010 ; qui stipule en son Article 31 (au titre des droits et devoirs de la personne humaine) que: <em>« -Toute personne a le droit d'être informée et d'accéder à l'information détenue par les services publics dans les conditions déterminées par la loi»</em>.
+        </p>
+        <p>Ainsi, notre projet vise à promouvoir la production, l’accès et l’utilisation (traitement, publication, diffusion) des données ouvertes à travers la création d’un portail open data pour le Niger.
+        </p>
+        <p>Ce dernier permettra non seulement de fédérer les sources de données ouvertes existantes sur le Niger mais encore d’identifier les besoins en données en vue d’améliorer le classement du Niger vis-à-vis de certains standards internationaux notamment le Global Open Data Index et l’Open Data Barometer.
+        </p>
+        <p>Il est aussi à noter que la plupart des sources de données existantes sont le fruit d’initiatives isolées qui n’ont pas forcément fait l’objet d’une large concertation entre les différents acteurs de l’écosystème des données (administrations publiques, secteur privé, société civile, partenaires techniques et financiers, universités et instituts de recherche,...).
+        </p>
+        <p>D’autre part, l’atteinte des Objectifs de Développement Durable passe forcément par la production (de manière participative), l’accès (équitable et à moindre coût) et l’utilisation (par tous) des données fiables, de qualité et à jour afin que nul ne soit laissé pour compte à l’horizon 2030.</p>
+        </p>
+        <p>En effet, à l’ère de l’économie du savoir et du développement durable, il est également important de sensibiliser les citoyens sur l’importance des données ouvertes pour:
+            <ul>
+                <li>une jouissance des droits humains fondamentaux</li>
+                <li>une meilleure prise de décision en vue de l’amélioration de leurs conditions de vie</li>
+                <li>la promotion de prestations et services de qualité</li>
+                <li>le suivi de l’action du pouvoir exécutif, législatif et judiciaire.</li>
+                <li>la promotion de la bonne gouvernance et la consolidation de la démocratie.</li>
+            </ul>
+        </p>
+        <p class="pt-2">
+        Enfin, l’adhésion du Niger à l’initiative Partenariat pour un Gouvernement Ouvert (PGO) est toujours en cours de réflexion et nous espérons faire le plaidoyer nécessaire afin d’accélérer ledit processus.
+        </p>        
+        <h2 class="pt-6">Présentation de l’équipe</h2>
+        <ul>
+            <li>Coordonnateur Point focal Ministere+ISLP Dr Sidi Zakari Ibrahim</li>
+            <li>Point focal CAFDO Mr Idriss Tinto</li>
+            <li>Point focal ANSI Mr Hamani Kargné</li>
+            <li>Point focal UAM Mr Sahabi Ibrahim</li>
+            <li>Point focal Agrhymet Dr Abdou Ali</li>
+            <li>Point focal SM GS Dr Soufianou Moussa</li>
+            <li>Point focal OSM Niger Mme Fatiman Alher</li>
+            <li>Point focal INS Mr Saidou Issoufou</li>
+            <li>Point focal ANPE Mr Issiaka Djibo</li>
+            <li>ACFM Mme Noura Fatchima</li>
+        </ul>
+    </div>
+  </article>
+{% endblock %}
+
+{% block secondary %}{% endblock %}
