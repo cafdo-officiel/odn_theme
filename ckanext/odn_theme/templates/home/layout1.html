@@ -5,7 +5,11 @@
       </span>
       <span class="h4 block">Contribuons au développpement de notre pays!</span>
       <div class="inline-block bg-orange-dark rounded-full pt-4 pb-6 px-6 mt-6">
-        <a href="#" class="text-white">Publier des données</a>
+        {% if c.userobj %}
+          <a href="/dataset/new" class="text-white">Publier des données</a>
+        {% else %}
+          <a href="/user/register" class="text-white">Publier des données</a>
+        {% endif %}
       </div>
     </div>
     <form id="adresse">
@@ -39,18 +43,12 @@
       <div class="col-md-6 col2">
         <span class="h5 block text-orange-dark">A propos de l'organisation</span>
         <span class="h2 block">QUI SOMMES NOUS</span>
-
-        <p class="texte">
-          Lorem ipsum dolor sit amet, consectetur adipiscing.Dolores quae porro consequatur aliquam, incidunt eius
-          magni provident, doloribus omnis minus ovidentonsectetur adipisicing elit. Dolores quae porro consequatur
-          aliquam, incidunt fugiat. Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla.
-          malis nulla duis fugiatolores quae porro consequatur aliquam, incidunt eius magni provident, doloribus omnis
-          minus ovidentonsectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt fugiat. Dolores
-          quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla. malis nulla duis fugiat
-
+        <p>Au Niger, le droit à l’information est un droit garanti par la constitution1 de la septième République en date du 25 novembre 2010 ; qui stipule en son Article 31 (au titre des droits et devoirs de la personne humaine) que: <em>« -Toute personne a le droit d'être informée et d'accéder à l'information détenue par les services publics dans les conditions déterminées par la loi»</em>.
+        </p>
+        <p>Ainsi, notre projet vise à promouvoir la production, l’accès et l’utilisation (traitement, publication, diffusion) des données ouvertes à travers la création d’un portail open data pour le Niger.
         </p>
         <div class="inline-block bg-green-dark rounded-full pt-6 pb-6 px-6 mt-6">
-          <a href="#" class="text-white font-bold">Lire plus ...</a>
+          <a href="/about" class="text-white font-bold">Lire plus ...</a>
         </div>
       </div>
       <div class="col-md-6 col1">
@@ -61,8 +59,7 @@
             <div class="flex flex-col">
               <span class="pb-2 text-black font-bold h4 block"> Education, Sport,
                 Culture</span>
-              <span>Lorem ipsum dolor sit amet, consectetur adipiscing.Dolores quae porro consequatur aliquam,
-                incidunt eius magni provident. </span>
+              <span>Données ouvertes sur les secteurs de l'éducation du sport et de la culture au Niger.</span>
             </div>
           </div>
         </div>
@@ -72,8 +69,7 @@
             <img class="h-32 w-32 mr-8 rounded-full p-4 bg-blue-darker w-32" src="/images/GovernmentIcon.png" alt="ESC">
             <div class="flex flex-col">
               <span class="h4 block pb-2 text-black font-bold">Gouvernement et secteur publique</span>
-              <span>Lorem ipsum dolor sit amet, consectetur adipiscing.Dolores quae porro consequatur aliquam,
-                incidunt eius magni provident. </span>
+              <span>Données ouvertes sur le secteur de la gouvernance et le secteur publique au Niger.</span>
             </div>
           </div>
         </div>
@@ -82,8 +78,7 @@
             <img class="h-32 w-32 mr-8 rounded-full p-4 bg-blue-darker w-32" src="/images/HealthIcon.png" alt="ESC">
             <div class="flex flex-col">
               <span class="h4 block pb-2 text-black font-bold">Santé</span>
-              <span>Lorem ipsum dolor sit amet, consectetur adipiscing.Dolores quae porro consequatur aliquam,
-                incidunt eius magni provident. </span>
+              <span>Données ouvertes sur le secteur de la santé au Niger.</span>
             </div>
           </div>
         </div>
